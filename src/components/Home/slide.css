@@ -1,0 +1,48 @@
+.myCarousel {
+  height: 80vh !important;
+}
+.c-item {
+  height: 80vh !important;
+  object-fit: cover !important;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), fixed center center;
+}
+.c-caption {
+  top: 60%;
+  transform: translateY(-50%);
+  bottom: initial;
+  text-align: left;
+  left: 8%;
+}
+
+.c-h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #e3e3e3;
+}
+.c-p {
+  font-size: 2rem;
+  color: #e3e3e3;
+}
+.c-item img {
+  filter: contrast(70%);
+}
+@media screen and (min-width: 580px) {
+  .myCarousel {
+    height: 100vh !important;
+  }
+  .c-item {
+    height: 100vh !important;
+    object-fit: cover !important;
+  }
+  .c-p {
+    font-size: 2.5rem;
+  }
+  .c-h1 {
+    font-size: 4rem;
+  }
+}

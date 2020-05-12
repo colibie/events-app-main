@@ -1,0 +1,23 @@
+
+.auth_panel {
+  position: relative;
+  top: 40px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  padding: 3rem;
+  width: 400px;
+  margin: 4rem auto;
+}
+
+.btn_link {
+  color: #cc1616;
+}
+
+.font_bold {
+  font-weight: bold;
+}
+
+.section_cto .btn-get-started:focus {
+  color: white;
+  background: red;
+  border: 2px solid #a85757ba;
+}
